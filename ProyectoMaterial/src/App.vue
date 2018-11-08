@@ -1,11 +1,13 @@
 <template>
-  <div>
-
-  </div>
+  <Tabs />
 </template>
 
 <script>
-  export default {
-    name: 'TableBasic'
+import TabComponent from './components/TabComponent'
+export default {
+  name: 'App',
+  components:{
+    Tabs: TabComponent
   }
+}
 </script>
